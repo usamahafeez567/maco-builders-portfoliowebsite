@@ -165,8 +165,23 @@ h5 {
   padding-left: 35px;
   padding-top: 3%;
 }
+.bi-wallet2 {
+  border: 2px solid #c3c6d1;
+  padding: 18px 27px;
+  border-radius: 100px;
+}
 .section-one p {
-  padding-left: 90px;
+  padding-left: 150px;
+}
+@media (max-width: 768px) {
+  .section-one p {
+    padding-left: 140px;
+  }
+}
+@media (max-width: 576px) {
+  .section-one p {
+    padding-left: 133px;
+  }
 }
 .section-one i {
   padding-top: 20px;
